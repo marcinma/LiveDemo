@@ -5,6 +5,11 @@ kubectl config current-context
 kubectl config get-contexts
 ```
 
+configfile:
+```sh
+kubectl --kubeconfig=./config
+```
+
 info:
 ```sh
 kubectl cluster-info

@@ -6,3 +6,12 @@
 - kubectl exec -ti myapp-pod curl localhost
 - kubectl logs myapp-pod
 
+```sh
+kubectl logs <pod-name>
+```
+
+4. Describe pod
+
+```sh
+kubectl describe pod <pod-name>
+```
