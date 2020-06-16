@@ -15,3 +15,9 @@ kubectl logs <pod-name>
 ```sh
 kubectl describe pod <pod-name>
 ```
+
+5. Expose pod directly
+
+```sh
+kubectl expose pod myapp-pod --port 80 --type NodePort
+```

@@ -1,1 +1,3 @@
-https://tiny.pl/7wjnz  
+# Linux installation steps:
+
+https://kubernetes.io/docs/tasks/tools/install-minikube/
